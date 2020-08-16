@@ -16,6 +16,9 @@ module.exports = appInfo => {
         enable: false,
       },
     },
+    logger: {
+      outputJSON: true,
+    },
   };
 
   // use for cookie sign key, should change to your own and keep security
@@ -27,6 +30,13 @@ module.exports = appInfo => {
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
+  };
+
+  config.cluster = {
+    listen: {
+      port: 7001,
+      hostname: '127.0.0.1',
+    },
   };
 
   return {
