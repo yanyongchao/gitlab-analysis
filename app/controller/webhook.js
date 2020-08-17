@@ -22,6 +22,9 @@ class WebhookController extends Controller {
     } else if (action === 'merge') {
       content = `你的请求已合并\n链接：${url}`;
       name = username;
+    } else if (action === 'close') {
+      content = `你的请求已关闭\n链接：${url}`;
+      name = username;
     }
     const textContent = {
       msgtype: 'text',
