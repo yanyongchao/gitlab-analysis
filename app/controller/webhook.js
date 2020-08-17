@@ -13,11 +13,15 @@ const robot = new ChatBot({
 class WebhookController extends Controller {
   async index() {
     const { ctx } = this;
-    const { object_attributes: { action, url }, assignee: { name } } = ctx.request.body;
-    const mobile = userMap[name];
+    const { user: { name: username }, object_attributes: { action, url }, assignee: { name: assigneeName } } = ctx.request.body;
     let content;
+    let name;
     if (action === 'open') {
-      content = `你有一个请求待合并，链接：${url}`;
+      content = `你有一个请求待合并\n链接：${url}`;
+      name = assigneeName;
+    } else if (action === 'merge') {
+      content = `你的请求已合并\n链接：${url}`;
+      name = username;
     }
     const textContent = {
       msgtype: 'text',
@@ -26,7 +30,7 @@ class WebhookController extends Controller {
       },
       at: {
         atMobiles: [
-          mobile,
+          userMap[name],
         ],
         isAtAll: false,
       },
