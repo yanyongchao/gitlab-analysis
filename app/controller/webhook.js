@@ -6,8 +6,8 @@ const userMap = require('../constant/user');
 
 const robot = new ChatBot({
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
-  accessToken: '66dc633cef834675ff2687d412be039670742c949a53d86140ad8eff16202b24',
-  secret: 'SEC6cfaf6231273cf8e4b8e1b1f10c3e3746358da75ff139566ce4fc4a7136d5397',
+  accessToken: 'a6be50f1a09860a1911db138813e462069215b7f55528c48991323535da3df3c',
+  secret: 'SEC40827781301b6afe827c88e075849bbf8bfd5a134c03eb3787f50440cc908066',
 });
 
 class WebhookController extends Controller {
