@@ -1,0 +1,103 @@
+{
+  "object_kind": "merge_request",
+  "user": {
+    "name": "晏永超",
+    "username": "yyc",
+    "avatar_url": "http://www.gravatar.com/avatar/6f1dad12539bbfb8a36c8e109b0a0b27?s=80&d=identicon"
+  },
+  "project": {
+    "name": "fs-cashier-mina-project",
+    "description": "支付宝IoT收银机小程序源码",
+    "web_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+    "avatar_url": null,
+    "git_ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+    "git_http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git",
+    "namespace": "web",
+    "visibility_level": 0,
+    "path_with_namespace": "web/fs-cashier-mina-project",
+    "default_branch": "master",
+    "homepage": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+    "url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+    "ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+    "http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git"
+  },
+  "object_attributes": {
+    "id": 55943,
+    "target_branch": "feature/20200805-offlineMode",
+    "source_branch": "feature/yyc-20200805-offlineMode",
+    "source_project_id": 862,
+    "author_id": 306,
+    "assignee_id": 336,
+    "title": "修改字段名称",
+    "created_at": "2020-08-17 02:12:40 UTC",
+    "updated_at": "2020-08-17 02:12:40 UTC",
+    "milestone_id": null,
+    "state": "opened",
+    "merge_status": "unchecked",
+    "target_project_id": 862,
+    "iid": 192,
+    "description": "",
+    "position": 0,
+    "locked_at": null,
+    "updated_by_id": null,
+    "merge_error": null,
+    "merge_params": {},
+    "merge_when_build_succeeds": false,
+    "merge_user_id": null,
+    "merge_commit_sha": null,
+    "deleted_at": null,
+    "source": {
+      "name": "fs-cashier-mina-project",
+      "description": "支付宝IoT收银机小程序源码",
+      "web_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+      "avatar_url": null,
+      "git_ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "git_http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git",
+      "namespace": "web",
+      "visibility_level": 0,
+      "path_with_namespace": "web/fs-cashier-mina-project",
+      "default_branch": "master",
+      "homepage": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+      "url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git"
+    },
+    "target": {
+      "name": "fs-cashier-mina-project",
+      "description": "支付宝IoT收银机小程序源码",
+      "web_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+      "avatar_url": null,
+      "git_ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "git_http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git",
+      "namespace": "web",
+      "visibility_level": 0,
+      "path_with_namespace": "web/fs-cashier-mina-project",
+      "default_branch": "master",
+      "homepage": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project",
+      "url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "ssh_url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+      "http_url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project.git"
+    },
+    "last_commit": {
+      "id": "219d9994bb884d089f4a0b8a78785f12c62143fb",
+      "message": "修改字段名称\n",
+      "timestamp": "2020-08-11T11:29:51+08:00",
+      "url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project/commit/219d9994bb884d089f4a0b8a78785f12c62143fb",
+      "author": { "name": "yanyongchao", "email": "yongchao.yan@welian.com" }
+    },
+    "work_in_progress": false,
+    "url": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project/merge_requests/192",
+    "action": "open"
+  },
+  "repository": {
+    "name": "fs-cashier-mina-project",
+    "url": "ssh://git@app-api-test.51youdian.com:1105/web/fs-cashier-mina-project.git",
+    "description": "支付宝IoT收银机小程序源码",
+    "homepage": "http://app-api-test.51youdian.com:9033/web/fs-cashier-mina-project"
+  },
+  "assignee": {
+    "name": "郭晓婷",
+    "username": "guoxiaoting",
+    "avatar_url": "http://www.gravatar.com/avatar/1679675ee5338a4913454e54d86c24eb?s=80&d=identicon"
+  }
+}
