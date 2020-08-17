@@ -17,13 +17,13 @@ class WebhookController extends Controller {
     let content;
     let name;
     if (action === 'open') {
-      content = `你有一个请求待合并\n链接：${url}`;
+      content = `你有一个merge请求待合并\n链接：${url}`;
       name = assigneeName;
     } else if (action === 'merge') {
-      content = `你的请求已合并\n链接：${url}`;
+      content = `你的merge请求已合并\n链接：${url}`;
       name = username;
     } else if (action === 'close') {
-      content = `你的请求已关闭\n链接：${url}`;
+      content = `你的merge请求已关闭\n链接：${url}`;
       name = username;
     }
     const textContent = {
